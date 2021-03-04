@@ -1,2 +1,2 @@
 # Windows Custom Deployment to Azure Gov
-![Basics](./media/Capture.png)
+![Basics](https://github.com/ameergul/Docs/tree/master/docs/media/Capture.png)
