@@ -1,2 +1,2 @@
 # Windows Custom Deployment to Azure Gov
-![Project Details](./media/Capture.PNG)
+![Project Details](docs/media/Capture.PNG)
