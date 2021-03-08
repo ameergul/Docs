@@ -1,5 +1,7 @@
 # Deploy STIG compliant Windows Virtual Machines
 
+This article shows how to use the Azure portal to deploy a STIG compliant Windows Virtual Machine.
+
 > Prerequisites: Azure Gov account, Storage Account (If desired, must be
 > in the same resource group/region as the VM, required if you plan to
 > store diagnostic log analytics), Log Analytics workspace (required if
@@ -9,7 +11,7 @@
 
 Sign in to the at [Azure Government portal](https://portal.azure.us/).
 
-## Create virtual machine
+## Create a STIG compliant virtual machine
 
 1. Click on Create a resource
 1. Type **Azure STIG Templates for Windows** in the search and then click on **Create**
@@ -57,6 +59,8 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
         use, utilizing an existing subnet will generate an error and
         require entering a new subnet)
 
+    c. Application security group (optional)
+
     ![Screenshot of the Network interface section showing where you select the network and subnet for the virtual machine](./media/network-interface.png)
 
 1. Under **Management**
@@ -67,7 +71,7 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
     b.  Enter Log Analytics workspace (optional, required to store
         log analytics)
 
-    ![Screenshot of the Management section showing where you select the diagnostic settings for the virtual machine](./media/diagnostic-settings.png)
+    ![Screenshot of the Management section showing where you select the diagnostic settings for the virtual machine](./media/windows-diagnostic-settings.png)
 
 1. Select **Review + create** to review summary of all selections
 
