@@ -96,7 +96,7 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
     d.  **Template** **tab** provides downloadable access to the json
         scripts used in the template
 
-1. The deployed Virtual machine can be found in the resource group used for the deployment. Since inbound is RDP disallowed, Bastion must be used to connect to the VM.
+1. The deployed Virtual machine can be found in the resource group used for the deployment. Since inbound RDP is disallowed, Bastion must be used to connect to the VM.
 
 ## Clean up resources
 
