@@ -1,5 +1,7 @@
 # Deploy STIG compliant Linux Virtual Machines
 
+Microsoft Azure Security Technical Implementation Guide (STIG) Solution Templates accelerates your speed to achieving [DoD STIG compliance](https://public.cyber.mil/stigs/) by delivering an automated solution to deploy Virtual Machines and apply STIGs through the Azure portal.
+
 This article shows how to use the Azure portal to deploy a STIG compliant Linux Virtual Machine.
 
 > Prerequisites: Azure Gov account, Storage Account (If desired, must be
@@ -103,3 +105,10 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
 When no longer needed, you can delete the resource group, virtual machine, and all related resources.
 
 Select the resource group for the virtual machine, then select **Delete**. Confirm the name of the resource group to finish deleting the resources.
+
+## Next steps
+
+This tutorial showed you how to deploy a STIG compliant virtual machine to Azure Government. To see the latest information and insights on building cloud solution for the Azure Government Cloud, check out Azure Government blog.
+
+> [!div class="nextstepaction"]
+> [Microsoft Azure Government Blog](https://blogs.msdn.microsoft.com/azuregov/).
