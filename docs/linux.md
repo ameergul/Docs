@@ -13,8 +13,9 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
 
 ## Create a STIG compliant virtual machine
 
-1. Click on Create a resource
-1. Type **Azure STIG Templates for Linux** in the search and then click on **Create**
+1. Select Create a resource
+1. Type **Azure STIG Templates for Linux** in the search and press enter
+1. Select **Azure STIG Templates for Linux** from the search results and then **Create**
 1. In the **Basics** tab, under **Project details**
 
     a.  Select an existing *Subscription*.
@@ -25,7 +26,7 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
 
     ![Screenshot of the Project details section showing where you select the Azure subscription and the resource group for the virtual machine](./media/project-details.png)
 
-1. Under **Instance details** and enter all required information
+1. Under **Instance details**, enter all required information
 
     a.  Enter the *VM name*
 
@@ -54,11 +55,9 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
 1. Under **Networking**
 
     a.  Select the *Virtual Network*. Either use existing virtual
-        network or select *Create new* (note RDP in bound is not
-        allowed)
+        network or select *Create new* (note RDP in bound is disallowed)
 
-    b.  Select *Subnet* (ensure the default subnet is not already in
-        use, utilizing an existing subnet will generate an error and
+    b.  Select *Subnet* (using an existing subnet will generate an error and
         require entering a new subnet)
 
     c. Application security group (optional)
@@ -81,8 +80,8 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
 
 1. Once the validation check is successful Select ***Create***
 
-1. Once the creation process is initiated you will be taken to the
-    ***Deployment*** Process
+1. Once the creation process is started, the
+    ***Deployment*** Process page will be displayed
 
     a.  **Deployment** ***Overview*** tab displays the deployment
         process including any errors that may occur. Once deployment is
@@ -97,10 +96,7 @@ Sign in to the at [Azure Government portal](https://portal.azure.us/).
     d.  **Template** **tab** provides downloadable access to the json
         scripts used in the template
 
-1. The completed deployment can be found on your Azure Portal homepage
-    (<https://portal.azure.us/#home>) by searching on resource group and
-    selecting the resource group used for the deployment. Since inbound
-    RDP is not allowed, Bastion must be used to connect to the VM.
+1. The deployed Virtual machine can be found in the resource group used for the deployment. Since inbound is RDP disallowed, Bastion must be used to connect to the VM.
 
 ## Clean up resources
 
